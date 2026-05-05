@@ -1,0 +1,74 @@
+# === Build artifacts ===
+
+target/
+build/
+out/
+
+# === Logs ===
+
+*.log
+
+# === OS files ===
+
+.DS_Store
+Thumbs.db
+
+# === IDE (IntelliJ IDEA) ===
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === IDE (Eclipse) ===
+
+.project
+.classpath
+.settings/
+
+# === IDE (VS Code) ===
+
+.vscode/
+
+# === Java compiled ===
+
+*.class
+*.jar
+*.war
+*.ear
+
+# === Maven ===
+
+.mvn/wrapper/maven-wrapper.jar
+
+# === Gradle ===
+
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Environment & secrets ===
+
+.env
+.env.*
+*.properties
+!src/main/resources/application.properties
+!src/main/resources/application.yml
+
+# === Spring Boot overrides ===
+
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# === Docker ===
+
+docker-data/
+*.pid
+
+# === Misc ===
+
+*.swp
+*.swo
+*~
