@@ -23,7 +23,7 @@ REST API for a car listing marketplace: catalog, filters, favorites, orders, adm
 
 ### Configuration
 
-Copy and adjust `src/main/resources/application.properties` (or use env-specific files / env vars). Never commit real secrets.
+Copy and adjust `src/main/resources/application.properties` 
 
 Important settings:
 
@@ -75,7 +75,7 @@ With the app running, open Swagger UI (path depends on your SpringDoc version; t
 
 ### Настройка
 
-Отредактируйте `src/main/resources/application.properties` (или вынесите секреты в профили / переменные окружения). Реальные пароли и ключи в репозиторий не кладите.
+Отредактируйте `src/main/resources/application.properties` 
 
 Ключевые группы настроек:
 
